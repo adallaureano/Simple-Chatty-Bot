@@ -54,7 +54,7 @@ public class SimpleBot {
         int num = 0;
         while (num != 2) {
             System.out.println("Please, try again.");
-            System.out.print(">");
+            System.out.println("");
             num = scanner.nextInt();
         }
 
